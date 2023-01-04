@@ -6,6 +6,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .ptittle2 {
@@ -16,6 +17,7 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: capitalize;
+  text-align: left;
 }
 
 .ptittle3 {
@@ -26,6 +28,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: capitalize;
+  text-align: left;
 }
 
 .ptext-wrapper {
@@ -80,7 +83,15 @@
   box-shadow: 0 0 10px 0 #9091db;
 }
 
+@media only screen and (max-width: 900px) {
+  .ptittle2 {
+    text-align: left;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .ptittle2 {
+    text-align: center;
+  }
   .footers-item5,
   .footers-item4,
   .footers-item3,

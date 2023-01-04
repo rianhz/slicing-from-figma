@@ -32,7 +32,7 @@ const Contents = () => {
       </Row>
 
       <Row>
-        <Col md className='text-center testi'>
+        <Col md className='text-center testi pt-5'>
           <p className='content-tittle'>testimonials</p>
           <p className='testi-header'>read what other have to say</p>
         </Col>

@@ -50,8 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
-  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .testi-header {
@@ -168,6 +167,13 @@
   .rdy {
     gap: 10px;
     padding: 20px 0;
+  }
+
+  .myCards {
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
