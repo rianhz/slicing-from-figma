@@ -1,0 +1,93 @@
+h1 {
+  font-size: 83px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-hero img {
+  width: 539px;
+}
+
+.button-group button {
+  color: white;
+  background-color: transparent;
+  padding: 22px 56px;
+  width: 239px;
+  border-radius: 83px;
+  font-size: 20px;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  transition: 0.7s;
+}
+
+.button-group button:hover {
+  box-shadow: 0 0 10px 0 #9091db;
+}
+
+.button-group :nth-child(1) {
+  background-color: #9090dc;
+}
+.button-group :nth-child(2) {
+  border: 2px solid #97d5d5;
+}
+
+@media only screen and (max-width: 1000px) {
+  .brodies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .button-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-group button {
+    width: 170px;
+    padding: 12px 46px;
+    font-size: 15px;
+  }
+
+  .img-hero img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .button-group button {
+    width: 170px;
+    padding: 12px 46px;
+    font-size: 15px;
+  }
+
+  .img-hero img {
+    width: 250px;
+  }
+
+  h1,
+  p {
+    font-size: smaller;
+    text-align: center;
+  }
+}

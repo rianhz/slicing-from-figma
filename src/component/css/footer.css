@@ -1,0 +1,125 @@
+.ptittle1 {
+  color: white;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.ptittle2 {
+  color: white;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.ptittle3 {
+  color: white;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.ptext-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.ptext-wrapper p {
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.input-groups {
+  position: relative;
+  display: flex;
+}
+
+.input-groups input {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  background-color: #11124b;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+}
+
+.input-groups button {
+  padding: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  outline: none;
+  border: none;
+  border-radius: 70px;
+  color: white;
+  width: 117px;
+  background-color: rgba(144, 144, 220, 1);
+}
+
+.ptext-wrapper p:hover {
+  box-shadow: 0 0 10px 0 #9091db;
+}
+
+@media only screen and (max-width: 768px) {
+  .footers-item5,
+  .footers-item4,
+  .footers-item3,
+  .footers-item2 {
+    justify-content: center;
+  }
+
+  .footers-item1 {
+    display: none;
+  }
+  .ptext-wrapper {
+    align-items: center;
+  }
+
+  .ptext-wrapper p {
+    width: 100%;
+  }
+
+  .ptittle1,
+  .ptittle2 {
+    text-transform: uppercase;
+    background-color: black;
+    padding: 15px;
+  }
+  .ptittle3 {
+    text-transform: uppercase;
+  }
+
+  .footers-item5 {
+    padding: 30px 0 80px 0;
+  }
+
+  .input-groups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-groups button {
+    z-index: 2;
+  }
+}
