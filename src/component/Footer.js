@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
         </Col>
-        <Col lg='4' sm='12' className='p-3'>
+        <Col lg='4' sm='12'>
           <div className='footers-item5 '>
             <p className='ptittle3'>join our newsletters</p>
             <div className='input-groups'>
