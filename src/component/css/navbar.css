@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #050742;
+}
+
+.navbar-toggler {
+  line-height: 0.2 !important;
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.nav-link {
+  border: 2px solid transparent;
+}
+.nav-link:active,
+.nav-link:hover {
+  border-bottom: 2px solid rgb(86, 84, 84);
+}

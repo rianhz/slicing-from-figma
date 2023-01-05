@@ -1,3 +1,6 @@
+.heros {
+  padding-top: 130px;
+}
 h1 {
   font-size: 83px;
 }
@@ -76,9 +79,12 @@ p {
   }
 
   .button-group button {
-    width: 170px;
-    padding: 12px 46px;
-    font-size: 15px;
+    width: 140px;
+    padding: 15px 32px;
+    font-size: 13px;
+    line-height: 10.5px;
+    letter-spacing: 5%;
+    font-weight: 400;
   }
 
   .img-hero img {

@@ -43,8 +43,13 @@
   font-family: 'Outfit';
   font-weight: 600;
   letter-spacing: 0.1em;
+  border: none;
+  outline: none;
+  transition: 0.7s;
 }
-
+.content-text button:hover {
+  box-shadow: 0 0 10px 0 #9091db;
+}
 .myCards {
   padding-top: 50px;
   display: flex;

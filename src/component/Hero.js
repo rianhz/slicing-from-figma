@@ -6,7 +6,7 @@ import './css/hero.css';
 const Hero = () => {
   return (
     <Container>
-      <Row className='pt-5 justify-content-center align-items-center'>
+      <Row className='justify-content-center align-items-center heros'>
         <Col md className='text-light p-2 brodies'>
           <h1>Discover and Collect Rare NFTs</h1>
           <p>The most secure marketplace for buyingand selling unique crypto assets.</p>
