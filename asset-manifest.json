@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/slicing-from-figma/static/css/main.96eab211.css",
-    "main.js": "/slicing-from-figma/static/js/main.8f5117cd.js",
+    "main.css": "/slicing-from-figma/static/css/main.4fd6a5e3.css",
+    "main.js": "/slicing-from-figma/static/js/main.1e9de958.js",
     "static/js/787.b590846c.chunk.js": "/slicing-from-figma/static/js/787.b590846c.chunk.js",
     "static/media/hero.png": "/slicing-from-figma/static/media/hero.b747b37919a440aac734.png",
     "static/media/apps.png": "/slicing-from-figma/static/media/apps.ac4a4cd87a7cebaad503.png",
     "static/media/analytics.png": "/slicing-from-figma/static/media/analytics.83afc82abfe12ec2f0f7.png",
     "static/media/pt-card.png": "/slicing-from-figma/static/media/pt-card.4e6a82b6a51182335b8c.png",
     "index.html": "/slicing-from-figma/index.html",
-    "main.96eab211.css.map": "/slicing-from-figma/static/css/main.96eab211.css.map",
-    "main.8f5117cd.js.map": "/slicing-from-figma/static/js/main.8f5117cd.js.map",
+    "main.4fd6a5e3.css.map": "/slicing-from-figma/static/css/main.4fd6a5e3.css.map",
+    "main.1e9de958.js.map": "/slicing-from-figma/static/js/main.1e9de958.js.map",
     "787.b590846c.chunk.js.map": "/slicing-from-figma/static/js/787.b590846c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96eab211.css",
-    "static/js/main.8f5117cd.js"
+    "static/css/main.4fd6a5e3.css",
+    "static/js/main.1e9de958.js"
   ]
 }
