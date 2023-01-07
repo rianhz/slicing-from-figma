@@ -13,8 +13,16 @@
 
 .nav-link {
   border: 2px solid transparent;
+  font-weight: 500 !important;
+  margin-left: 20px;
 }
 .nav-link:active,
 .nav-link:hover {
   border-bottom: 2px solid rgb(86, 84, 84);
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-link {
+    margin-left: 0;
+  }
 }
